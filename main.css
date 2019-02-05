@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+}
+#quote-box{
+  text-align: center;
+  margin-top: 10vh;
+  padding: 2em;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+}
+#author{
+  text-align: right;
+  font-style: italic;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.clickable{
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
